@@ -1,0 +1,40 @@
+.header {
+    background-color: #999696;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.header h1 {
+    color: #1e1f20;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header nav a {
+    background-color: brown;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.header nav a:hover {
+    background-color: #fff;
+    color: brown;
+}
+
+.header input {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #1e1f20;
+    width: 30%;
+}
